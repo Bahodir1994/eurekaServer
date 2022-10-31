@@ -1,2 +1,4 @@
 rootProject.name = 'expertise-microservices-project'
 
+includeBuild('eureka-server')
+

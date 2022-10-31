@@ -1,4 +1,6 @@
 rootProject.name = 'expertise-microservices-project'
 
 includeBuild('eureka-server')
+includeBuild('eureka-client')
+includeBuild('eureka-gateway')
 

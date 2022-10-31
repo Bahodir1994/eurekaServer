@@ -11,6 +11,16 @@
                   <project path="$PROJECT_DIR$/eureka-server" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/eureka-client" name="eureka-client">
+                <projects>
+                  <project path="$PROJECT_DIR$/eureka-client" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/eureka-gateway" name="eureka-gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/eureka-gateway" />
+                </projects>
+              </build>
             </builds>
           </compositeBuild>
         </compositeConfiguration>
@@ -19,6 +29,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/eureka-client" />
+            <option value="$PROJECT_DIR$/eureka-gateway" />
             <option value="$PROJECT_DIR$/eureka-server" />
           </set>
         </option>
@@ -29,6 +41,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/eureka-client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-gateway" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eureka-gateway" />
           </set>
         </option>
       </GradleProjectSettings>
